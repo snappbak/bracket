@@ -7,18 +7,19 @@ import Button from '@material-ui/core/Button'
 export default function Home(props) {
     return (
       <div>
-        <Header />
+        <Header current="home" />
         <main>
-            <div style={{ textAlign: 'center' }}>
+            <div class="home">
                 <h1>ProductName</h1>
-                <p>We have our multiple column layout with equal-sized columns, and the columns are all the same height.</p>
-                <p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                <div>
                   <Link to={`/product`}>
                     <Button variant="contained" size="large" color="primary">
                       Try It Now
                     </Button>
                   </Link>
-                </p>
+                </div>
+                <p>&nbsp;</p>
             </div>
         </main>
         <Footer />

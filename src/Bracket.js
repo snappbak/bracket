@@ -106,21 +106,52 @@ export default function Bracket(props) {
                 </div>
             </div>
             <div>
+                <div class="spacer cross-up">
+                    <div>
+                        <div class="extension"></div>
+                    </div>
+                </div>
                 <div class="match">
                     <div>some text</div>
                     <div>some text</div>
                 </div>
-            </div>
-            <div style={{flex: 2}}>
-                <div class="match final">
-                    <div>some text</div>
-                    <div>some text</div>
+                <div class="spacer cross-down">
+                    <div>
+                        <div class="extension"></div>
+                    </div>
                 </div>
             </div>
             <div>
+                <div class="champ">
+                    some text
+                </div>
+                <div class="match final">
+                    <div class="team">
+                        <div>some text</div>
+                    </div>
+                    <div class="spacer hide">
+                        <div></div>
+                    </div>
+                    <div class="team">
+                        <div>some text</div>
+                    </div>
+                </div>
+                <div class="champ"></div>
+            </div>
+            <div>
+                <div class="spacer flex-end cross-up">
+                    <div>
+                        <div class="extension"></div>
+                    </div>
+                </div>
                 <div class="match">
                     <div>some text</div>
                     <div>some text</div>
+                </div>
+                <div class="spacer flex-end cross-down">
+                    <div>
+                        <div class="extension"></div>
+                    </div>
                 </div>
             </div>
             <div class="column-3">
