@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Header from './Header'
 import Footer from './Footer'
 
@@ -60,9 +61,11 @@ export default function Product(props) {
               </tr>
               <tr>
                 <td colspan="2" style={{ textAlign: 'center' }}>
-                  <Button variant="contained" size="large" color="primary">
-                    Next
-                  </Button>
+                  <Link to={`/bracket`}>
+                    <Button variant="contained" size="large" color="primary">
+                      Next
+                    </Button>
+                  </Link>
                 </td>
               </tr>
             </table>

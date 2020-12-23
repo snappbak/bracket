@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom'
+// import Link from '@material-ui/core/Link'
 import Button from '@material-ui/core/Button'
-import Link from '@material-ui/core/Link'
 import Icon from '@material-ui/core/Icon'
 
 export default function Header(props) {
@@ -7,12 +8,12 @@ export default function Header(props) {
       <header>
           <div class="wrapper">
               <div>
-                  <Link>ProductName</Link>
-                  <Link>Subscribe</Link>
-                  <Link>About</Link>
+                  <Link to={`/product`}>ProductName</Link>
+                  <Link to={`/product`}>Subscribe</Link>
+                  <Link to={`/`}>About</Link>
               </div>
               <div>
-                  <Button variant="contained" color="primary">Log In</Button>
+                  <Button to={`/product`} variant="contained" color="primary">Log In</Button>
                   &nbsp;
                   <Icon style={{ fontSize: 30 }}>+</Icon>
               </div>
